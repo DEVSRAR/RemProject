@@ -1,0 +1,48 @@
+/* 初始化css */
+body {
+	-webkit-tap-highlight-color: transparent;
+	margin: 0;
+}
+
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+input {
+	-webkit-appearance:none;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+button {
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6,p {
+	margin: 0;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+
+.active {
+	color: red;
+	font-size: 0.28rem;
+	font-family: PingFangSC-Medium;
+	font-weight: 500;
+	display: block;
+}

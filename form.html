@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>form页</title>
+</head>
+
+<body>
+  <!-- 版心 -->
+  <div class="content">
+    <form>
+      <!-- 成本表 -->
+      <div class="formInner">
+        <div class="input-box">
+          <div>月投入成本</div>
+          <input type="number" name="cost" >
+          <div>元（必填）</div>
+        </div>
+        <div class="input-box">
+          <div>卡项消费单价</div>
+          <input type="number" name="card">
+          <div>元（必填）</div>
+        </div>
+        <div class="input-box">
+          <div>美容床数</div>
+          <input type="number" name="bed">
+          <div>床（必填）</div>
+        </div>
+      </div>
+      <!-- 用户信息表 -->
+      <div class="formInner">
+        <h4>免费检测门店问题，获取门店盈利能力标准数</h4>
+        <div class="input-box">
+          <div>姓名</div>
+          <input type="text" name="username">
+          <div style="visibility: hidden;">元（必填）</div>
+        </div>
+        <div class="input-box">
+          <div>手机号</div>
+          <input type="number" name="number">
+          <div class="yzm">
+            <!-- <a href="javascript:;" class="getAuthCode">验证码</a> -->
+            <button type="button" class="authbtn" >验证码</button>
+          </div>
+        </div>
+        <div class="input-box">
+          <div>验证码</div>
+          <input type="number" name="ma">
+          <div style="visibility: hidden;">元（必填）</div>
+        </div>
+        <div class="input-box" style="margin-bottom: 0;">
+            <div style="visibility: hidden;">元（必填）</div>
+
+            <!-- 默认隐藏，增加类名active 显示 -->
+            <div class="active" id="isshow"></div>
+
+            <div style="visibility: hidden;">元（必填）</div>
+          </div>
+        <div class="pinkbtn">
+          <a href="javascript:;" class="formbtn">快速提交</a>
+        </div>
+      </div>
+    </form>
+    <div class="bottom">
+      <img src="./img/tu22x.png" alt="">
+    </div>
+  </div>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/base.js"></script>
+  <script src="./js/index.js"></script>
+
+
+</body>
+
+</html>

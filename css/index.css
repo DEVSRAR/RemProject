@@ -1,0 +1,158 @@
+/* *********************  index页 *******************/
+html {
+  font-size: 100px;
+}
+body {
+  font-size: 14px;
+}
+.content {
+  padding: 0.2rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.top {
+  width: 7.1rem;
+  background-color: #eeeeee;
+  padding: 0 0.3rem;
+}
+.top h4 {
+  height:1rem;
+  font-size:0.28rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  line-height:1rem;
+  text-align: center;
+}
+.top img {
+  width: 6.5rem;
+  height: 3.1rem;
+}
+.top p {
+  font-size:0.26rem;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  margin-top: 0.2rem;
+}
+.pinkbtn {
+  padding: 0.4rem 0;
+}
+.pinkbtn a{
+  display: block;
+  width:5.1rem;
+  height:0.78rem;
+  background:rgba(241,1,128,1);
+  border-radius:0.06rem;
+  text-align: center;
+  line-height: 0.78rem;
+  font-size:0.28rem;
+  margin: 0 auto;
+}
+.bottom {
+  text-align: center;
+}
+.bottom img {
+  width: 7.1rem;
+  height: 1.53rem;
+  margin-top: 1.54rem;
+}
+/* *********************  form 表单页 *******************/
+.formInner {
+  padding: 0.3rem;
+  background-color: #eeeeee;
+  font-size:0.28rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  margin-bottom: 0.3rem;
+}
+.input-box {
+  display: flex;
+  justify-content: space-between; /* 定义了项目在主轴上的对齐方式*/
+  align-items: center;  /* 定义项目在交叉轴上如何对齐*/
+  margin-bottom: 0.18rem;
+}
+.input-box div:first-child {
+  width: 1.7rem;
+}
+.input-box input {
+  width:2.8rem;
+  height:0.5rem;
+  background:rgba(255,255,255,1);
+  text-align: right;
+  padding-right: 0.2rem;
+}
+/* **************  个人信息表2 **********/
+.yzm {
+  width: 1.4rem;
+}
+.yzm a {
+  margin: 0 auto;
+  display: block;
+  width:1.22rem;
+  height:0.4rem;
+  line-height: 0.4rem;
+  background:rgba(241,1,128,1);
+  border-radius:0.29rem;
+  text-align: center;
+  font-size: 0.2rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+}
+.formInner h4 {
+  height:1rem;
+  font-size:0.28rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  line-height:1rem;
+  text-align: center;
+}
+/* *********************  detail 详情页 *******************/
+.formInner p {
+  position: relative;
+  margin-bottom: 0.2rem;
+}
+.formInner p:last-of-type {
+  margin: 0;
+}
+.formInner p span {
+  position: absolute;
+  right: 0;
+}
+.white {
+  background-color: #fff;
+  padding: 0.1rem;
+  margin-top: 0.2rem;
+}
+/* *********************  最后一页 *******************/
+.world {
+  width:7.1rem;
+  height:0.98rem;
+  line-height: 0.98rem;
+  background:rgba(245,245,245,1);
+  border-radius:0.06rem;
+  font-size:0.3rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1);
+  text-align: center;
+  margin: 4rem auto;
+}
+
+/* button 验证码 */
+.authbtn {
+  border:none;
+  width:1.22rem;
+  height:0.4rem;
+  line-height: 0.4rem;
+  background:rgba(241,1,128,1);
+  border-radius:0.29rem;
+  text-align: center;
+  font-size: 0.2rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+}
