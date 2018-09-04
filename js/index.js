@@ -38,7 +38,7 @@ $(function () {
     $.ajax({
       url: '2.json',
       type: 'get',
-      success: function(msg) {
+      success: function (msg) {
         // var json1 = JSON.parse(msg);
         console.log(msg)
 
@@ -80,7 +80,8 @@ $(function () {
       success: function (msg) {
         console.log(msg)
         if (msg.code === '1') {
-          window.location.href = './detail.html'
+          var timestamp = Date.parse(new Date());
+          window.location.href = './detail.html?date=' + timestamp
         } else if (msg.code == '-1') {
           // 验证码错误
           $('#isshow').html(msg.msg);
@@ -90,6 +91,18 @@ $(function () {
     })
   })
 
+  // 点击重新检测按钮，事件处理函数
+  $('.retest').on('click', function () {
+    // 正在跳转显示，其他页面隐藏
+    $('.content')
+      .children('h6')
+      .show()
+      .siblings()
+      .hide();
+    setTimeout(function () {
+      window.location.href = './form.html';
+    }, 1000);
+  });
 });
 
 /*

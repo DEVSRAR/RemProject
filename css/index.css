@@ -9,6 +9,7 @@ body {
   padding: 0.2rem;
   background-color: #fff;
   margin: 0 auto;
+  position: relative;
 }
 .top {
   width: 7.1rem;
@@ -127,6 +128,19 @@ body {
   padding: 0.1rem;
   margin-top: 0.2rem;
 }
+/* 正在跳转 */
+h6 {
+  position: fixed;
+  width: 25%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+  color: rgba(241,1,128,1)
+}
 /* *********************  最后一页 *******************/
 .world {
   width:7.1rem;
@@ -140,6 +154,7 @@ body {
   color:rgba(51,51,51,1);
   text-align: center;
   margin: 4rem auto;
+  font-size: 16px;
 }
 
 /* button 验证码 */
